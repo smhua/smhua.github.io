@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
+        <title>Steven Hua Portfolio Website</title>
+        <script src="https://kit.fontawesome.com/8d0a1b61ae.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous"/>
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <div class="logo">
+                <img src="" alt=""> <!--this is the logo image-->
+            </div>
+
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="test"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#projects" class="nav__link">Projects</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                </ul>
+            </nav>
+            
+
+        </header>
+        <div class="container">
+            <!-- Introduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Steven Hua</strong>
+            </h1>
+            <p class="section__subtitle section__subtitle--intro">CS student</p>
+            <img src="img/gojo.jpg" alt="picture of me" class="intro__img">
+        </section>
+
+<!-- Projects -->
+        <section class="projects" id="projects">
+            <h2 class="section__title section__title--projects">Projects</h2>
+            <p class="section__subtitle section__subtitle--projects"> Some projects that I've made</p>
+            <div class="portfolio">
+                <!--project 1-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/component.png" alt="" class="portfolio__img">
+                </a>
+
+                <!--project 2-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/component.png" alt="" class="portfolio__img">
+                </a>
+
+                <!--project 3-->
+                <a href="#" class="portfolio__item">
+                    <img src="img/component.png" alt="" class="portfolio__img">
+                </a>
+            </div>
+
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!--About Me-->
+         <section class="about-me" id="about">
+
+            <h2 class="section__title section__title--about">Who I Am</h2>
+            <p class="section__subtitle section__subtitle--about">Something out of ATL</p>
+
+            <div class="about-me__body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <img src="img/gojo_2.png" alt="Some picture of me" class="about-me__img">
+
+         </section>
+
+        
+         <footer class="footer">
+            <a href="mailto: huasteven98@gmail.com" class="footer__link">huasteven98@gmail.com</a>
+
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/steven-hua-6b4476195/">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/smhua">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </li>
+            </ul>
+
+        </footer>
+        </div>
+
+
+        <script src="index.js"></script>
+    </body>
+</html>
